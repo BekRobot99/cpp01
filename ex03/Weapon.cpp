@@ -6,7 +6,7 @@
 /*   By: abekri <abekri@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/10 19:48:13 by abekri            #+#    #+#             */
-/*   Updated: 2024/11/12 11:51:14 by abekri           ###   ########.fr       */
+/*   Updated: 2024/11/13 23:56:09 by abekri           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,7 +20,7 @@ Weapon::~Weapon(){}
 
 const std::string& Weapon::getType() const
 {
-	return type;
+	return _type;
 }
 
 void	Weapon::setType(std::string type)
